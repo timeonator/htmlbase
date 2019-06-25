@@ -1,0 +1,81 @@
+/*
+0. Color Palette  ------------------- All Files
+1. Reset ---------------------------- All Files
+2. Header Styles -------------------- 
+3. Body Styles ---------------------- 
+4. Sidebar Styles ------------------- 
+5. footer styles -------------------- 
+6. comments & form styles ----------- 
+7. Navigation -----------------------
+*/
+
+/* 
+1.0 Color Palette
+Coolors Exported Palette - coolors.co/2f1100-00005d-1c77c3-3e92cc-2a628f 
+*/
+
+$color1: rgba(47, 17, 0, 1);
+$color2: rgba(0, 0, 93, 1);
+$color3: rgba(28, 119, 195, 1);
+$color4: rgba(62, 146, 204, 1);
+$color5: rgba(42, 98, 143, 1);
+/* color assignments */
+
+$header-background: $color1;
+$header-color: $color4;
+$footer-background: $color2;
+$body-background: $color5;
+$body-color: $color1;
+$footer-background: $color2;
+$footer-color: $color4;
+$white: white;
+
+/* 1. Reset */
+@import './meyer_reset';
+
+.header {
+  background-color: $header-background;
+  color: $header-color;
+}
+
+/* 3. Body Styles */
+body {
+  background-color: $body-background;
+  color: $body-color;
+}
+
+
+
+.content {
+  margin: 10% 10%;
+  h1 {
+    font-size: 2em;
+    margin: .8em 0;
+  }
+  h2 {
+    font-size: 1.6em;
+    margin: 1.6em 0em .2em 0em;
+  }
+
+  p {
+    padding: .5em 0em;
+  }
+}
+
+/* 5. footer styles */
+.footer {
+  background-color: $footer-background;
+  color: $footer-color;
+}
+
+/* 7. Navigation */
+.nav {
+  ul {
+    padding: 20px 20px;
+
+    li {
+      display: inline;
+      margin-inline: 25px, 0, 15px, 0;
+    }
+  }
+}
