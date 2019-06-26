@@ -33,9 +33,17 @@ $white: white;
 /* 1. Reset */
 @import './meyer_reset';
 
+/* 2. Header Styles */
 .header {
   background-color: $header-background;
   color: $header-color;
+  a {
+    text-decoration: none;
+  }  
+  a:visited {
+    color: $header-color;
+  
+  }
 }
 
 /* 3. Body Styles */
@@ -65,8 +73,15 @@ body {
 
 /* 5. footer styles */
 .footer {
+  a {
+    text-decoration: none;  
+  }
   background-color: $footer-background;
   color: $footer-color;
+  a:visited {
+    color: $footer-color;
+
+  }
 }
 
 /* 7. Navigation */
