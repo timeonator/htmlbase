@@ -14,17 +14,17 @@
 Coolors Exported Palette - coolors.co/2f1100-00005d-1c77c3-3e92cc-2a628f 
 */
 
-$color1: rgba(47, 17, 0, 1);
-$color2: rgba(0, 0, 93, 1);
-$color3: rgba(28, 119, 195, 1);
-$color4: rgba(62, 146, 204, 1);
-$color5: rgba(42, 98, 143, 1);
+$color1: rgba(35, 0, 7, 1);
+$color2: rgba(215, 207, 7, 1);
+$color3: rgba(217, 131, 36, 1);
+$color4: rgba(164, 6, 6, 1);
+$color5: rgba(90, 0, 2, 1);
 /* color assignments */
 
 $header-background: $color1;
 $header-color: $color4;
 $footer-background: $color2;
-$body-background: $color5;
+$body-background: $color3;
 $body-color: $color1;
 $footer-background: $color2;
 $footer-color: $color4;
@@ -42,6 +42,7 @@ $white: white;
 body {
   background-color: $body-background;
   color: $body-color;
+  font-family: 'Roboto', sans-serif; // https://fonts.google.com/specimen/Roboto
 }
 
 
@@ -76,6 +77,8 @@ body {
     li {
       display: inline;
       margin-inline: 25px, 0, 15px, 0;
+      margin-right: 1.6em;
+      font-size: 16pt;
     }
   }
 }
